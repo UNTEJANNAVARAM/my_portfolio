@@ -5,28 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>untej portfolio</title>
+
+    <style>
+        *{
+            background-color: #0096ff;
+        }
+        .button{
+            color: rgb(0, 0, 223);
+        }
+    </style>
     </head>
 
     <body>
         <header>
-            <a href=""> <button>About</button> </a>
-            <a href=""> <button>Skills</button> </a>
-            <a href=""> <button>Projects</button> </a>
-            <a href=""> <button>Contact</button> </a>
+            <a href="" class="button"> <button>About</button> </a>
+            <a href="" class="button"> <button>Skills</button> </a>
+            <a href="" class="button"> <button>Projects</button> </a>
+            <a href="" class="button"> <button>Contact</button> </a>
         </header>
 
         <main>
             <section id="about">
-                <h1>Welcome to My portfoilo</h1>
+                <h1>Welcome to My portfolio</h1>
 
             <h2>I am UNTEJ</h2>
     
             <img src="download.jpeg" alt="image">
     
             <p>
-                I am passionate in web development a focus on front-end technologies<br>
-                I am currently pursuing my B.Tech CSE in <strong>The Apollo University</strong><br>
-                You can <strong>click here</strong> what I have learnt in HTML CSS JS.
+                I am passionate in web development a focus on front-end technologies.<br>
+                I am currently pursuing my B.Tech CSE in <strong>The Apollo University.</strong><br>
+                You can <a href=""><strong>click here</strong></a> to see what I have learnt in HTML CSS JS.
             </p>
             </section>
             <section id="skills">
@@ -45,18 +54,18 @@
                 <h2> My projects</h2>
             <table border="1">
                 <tr>
-                    <th>project</th>
-                    <th>description</th>
+                    <th>Project</th>
+                    <th>Description</th>
                 </tr>
                 <tr>
-                    <td>portfolio website</td>
-                    <td>I have built a Portfolio website by using HTML, CSS & JS</td>
+                    <td>Portfolio Website</td>
+                    <td>I have built a Portfolio Website by using HTML, CSS & JS</td>
                 </tr>
             </table>
             </section>
             <section id="contact">
                 <h2>Contact Me</h2>
-                <p>feel free to get in touch with me using the form below</p>
+                <p>Feel free to get in touch with me using the form below</p>
                 <form>
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name"> <br>
@@ -64,23 +73,23 @@
                     <label for="email">Email:</label>
                     <input id="email" type="email" name="email"> <br>
         
-                    <label>choose your gender</label>
-                    <label for="gender">male</label>
+                    <label>Choose your gender</label>
+                    <label for="gender">Male</label>
                     <input id="gender" type="radio" value="male">
-                    <label for="gender1">female</label>
+                    <label for="gender1">Female</label>
                     <input id="gender1" type="radio" value="female"> <br>
         
-                    <label> select your intersets</label>
-                    <label for="interest">coding</label>
+                    <label>Select your intersets</label>
+                    <label for="interest">Coding</label>
                     <input id="interest" type="checkbox" value="coding">
-                    <label for="interest1">reading</label>
+                    <label for="interest1">Reading</label>
                     <input id="interest1" type="checkbox" value="reading"> <br>
         
-                    <label for="bio">bio</label>
-                    <input type="text" id="bio" maxlength="200"></input> <br>
+                    <label for="bio">Bio</label>
+                    <input type="text" id="bio" maxlength="200" placeholder="Write your Bio here"></input> <br>
         
-                    <button type="submit">submit</button>
-                    <button type="reset">reset</button>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
                 </form>
         
             </section>
