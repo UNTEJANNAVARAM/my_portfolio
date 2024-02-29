@@ -5,35 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>untej portfolio</title>
-
-    <style>
-        *{
-            background-color: #0096ff;
-        }
-        .button{
-            color: rgb(0, 0, 223);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" >
     </head>
 
     <body>
         <header>
-            <a href="" class="button"> <button>About</button> </a>
-            <a href="" class="button"> <button>Skills</button> </a>
-            <a href="" class="button"> <button>Projects</button> </a>
-            <a href="" class="button"> <button>Contact</button> </a>
+            <h1>Welcome to My portfolio</h1>
+            <a href="" > <button class="button">About</button> </a>
+            <a href="" > <button class="button">Skills</button> </a>
+            <a href="" > <button class="button">Projects</button> </a>
+            <a href="" > <button class="button">Contact</button> </a>
         </header>
 
         <main>
             <section id="about">
-                <h1>Welcome to My portfolio</h1>
 
-            <h2>I am UNTEJ</h2>
+            <h1>I am UNTEJ</h1>
     
-            <img src="download.jpeg" alt="image">
+            <img src="photo.jpeg" alt="image">
     
             <p>
-                I am passionate in web development a focus on front-end technologies.<br>
+                I am passionate in web development with a focus on front-end technologies.<br>
                 I am currently pursuing my B.Tech CSE in <strong>The Apollo University.</strong><br>
                 You can <a href=""><strong>click here</strong></a> to see what I have learnt in HTML CSS JS.
             </p>
@@ -45,13 +37,11 @@
                     <li>HTML Basics</li>
                     <li>CSS Basics</li>
                     <li>JS Basics</li>
-                
-            
                 </ol>
         
             </section>
             <section id="projects">
-                <h2> My projects</h2>
+                <h1> My projects</h1>
             <table border="1">
                 <tr>
                     <th>Project</th>
@@ -64,7 +54,7 @@
             </table>
             </section>
             <section id="contact">
-                <h2>Contact Me</h2>
+                <h1>Contact Me</h1>
                 <p>Feel free to get in touch with me using the form below</p>
                 <form>
                     <label for="name">Name:</label>
@@ -88,19 +78,18 @@
                     <label for="bio">Bio</label>
                     <input type="text" id="bio" maxlength="200" placeholder="Write your Bio here"></input> <br>
         
-                    <button type="submit">Submit</button>
-                    <button type="reset">Reset</button>
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
                 </form>
         
             </section>
     
-            
-    
-            
-       
         </main>
+        <button class="top">TOP</button>
         <footer>
-            <p>2024 my portfolio</p>
+            <p>© 2024 My Portfolio</p>
+            <a href=""><i></i></a>
+            <a href=""><i></i></a>
 
         </footer>
     </body>
